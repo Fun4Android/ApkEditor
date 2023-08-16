@@ -4,10 +4,11 @@ plugins {
 
 android {
     compileSdk 33
+    ndkVersion '24.0.8215888'
 
     defaultConfig {
         applicationId "com.gmail.heagoo.apkeditor.pro"
-        minSdk 14
+        minSdk 21
         targetSdk 26
         multiDexEnabled true
     }
